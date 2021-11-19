@@ -201,7 +201,7 @@ namespace CaveRouting
             else
             {
                 Console.WriteLine("No Path Detected.");
-                File.WriteAllText(cavFilePath + "/" + args[0] + ".csn", "0");
+                File.WriteAllText(args[0] + ".csn", "0");
             }
         }
 
